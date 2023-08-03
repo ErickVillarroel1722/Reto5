@@ -1,0 +1,40 @@
+.contenedor {
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 200px 200px;
+  gap: 10px;
+  background-color: #0d4263;
+  width: fit-content;
+  margin-top: 12.5%;
+  margin-left: 40%;
+  }
+  
+  p {
+  background-color: aqua;
+  color: #ffffff;
+  font: 4em sans-serif;
+  text-align: center;
+  padding: 10px;
+  justify-self: end;
+  }
+  
+  .item1 {
+  display: grid;
+  grid-area: 1/1;
+  background-color: #1ad901;
+  }
+  .item2 {
+  display: grid;
+  grid-area: 1/2;
+  background-color: #d90178;
+  }
+  .item3 {
+  display: grid;
+  grid-area: 2/1;
+  background-color: #84bb05;
+  }
+  .item4 {
+  display: grid;
+  grid-area: 2/2;
+  background-color: #0572bb;
+  }
